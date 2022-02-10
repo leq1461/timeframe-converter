@@ -6,7 +6,7 @@ setup(
     packages=find_packages(),
     license='MIT',
     description='Converts any timeframe OHLC data points (e.g. crypto candlestick data) to higher timeframese',
-    long_description=open('README.txt').read(),
+    long_description=open('README.md').read(),
     install_requires=['pandas'],
     url='https://github.com/joao-aguilera-c/timeframe-converter',
     author='João Aguilera',
